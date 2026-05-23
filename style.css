@@ -1,0 +1,257 @@
+
+:root {
+  --bg: #081120;
+  --card: rgba(15, 23, 42, 0.92);
+  --card-border: rgba(96, 165, 250, 0.25);
+  --text: #e5eefc;
+  --muted: #b6c2df;
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --success: #10b981;
+  --warning: #fbbf24;
+  --danger: #ef4444;
+  --shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top, rgba(59, 130, 246, 0.22), transparent 35%),
+    linear-gradient(135deg, #020617, #0f172a 55%, #111827);
+}
+
+.container {
+  width: 100%;
+  max-width: 1220px;
+  padding: 20px;
+  border-radius: 22px;
+  border: 1px solid var(--card-border);
+  background: var(--card);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 12px;
+}
+
+h1 {
+  margin: 0;
+  text-align: center;
+  font-size: clamp(1.3rem, 2.3vw, 1.8rem);
+  color: #f8fafc;
+}
+
+p {
+  margin: 0;
+  text-align: center;
+  color: var(--muted);
+  line-height: 1.4;
+  font-size: 0.9rem;
+}
+
+.top-info {
+  width: 100%;
+  padding: 14px 16px;
+  margin-top: 6px;
+  border-radius: 16px;
+  border: 1px solid var(--card-border);
+  background: rgba(15, 23, 42, 0.94);
+  box-shadow: var(--shadow);
+}
+
+.top-info h1,
+.top-info p {
+  text-align: center;
+}
+
+.game-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(220px, 0.72fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.left-panel,
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#score,
+#preguntaActual {
+  color: #fde047;
+  font-weight: 700;
+}
+
+#timer {
+  width: 100%;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--warning);
+  background: rgba(251, 191, 36, 0.12);
+  border: 1px solid rgba(251, 191, 36, 0.3);
+  border-radius: 12px;
+}
+
+#pregunta {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 12px;
+  background: rgba(30, 41, 59, 0.9);
+  color: #f8fafc;
+  font-size: 0.92rem;
+  font-weight: 600;
+  text-align: left;
+}
+
+.game-image {
+  width: 100%;
+  height: auto;
+  max-height: 760px;
+  object-fit: contain;
+  border-radius: 16px;
+  margin: 6px 0;
+  padding: 8px;
+  background: linear-gradient(180deg, #ffffff, #e2e8f0);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.opciones-container {
+  width: 100%;
+  display: grid;
+  gap: 8px;
+  margin: 6px 0 0;
+}
+
+button {
+  width: 100%;
+  padding: 8px 11px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-align: left;
+  background: linear-gradient(135deg, var(--primary), var(--primary-hover));
+  color: white;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  box-shadow: 0 10px 20px rgba(37, 99, 235, 0.25);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, filter 0.18s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+  filter: brightness(1.05);
+  box-shadow: 0 14px 24px rgba(37, 99, 235, 0.32);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  box-shadow: none;
+}
+
+button.correcta {
+  background: linear-gradient(135deg, #10b981, #059669) !important;
+  opacity: 1;
+}
+
+button.incorrecta {
+  background: linear-gradient(135deg, #facc15, #eab308) !important;
+  color: #111827;
+  opacity: 1;
+}
+
+#resultado {
+  min-height: 28px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: left;
+}
+
+#reinicioContainer {
+  width: 100%;
+  display: none;
+}
+
+.reiniciar-btn {
+  background: #10b981;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin-top: 20px;
+}
+
+.victoria-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+  text-align: center;
+  padding-top: 20%;
+}
+
+.victoria-titulo {
+  color: #fbbf24;
+  font-size: 50px;
+}
+
+.victoria-texto {
+  font-size: 30px;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 10px;
+  }
+
+  .top-info {
+    position: static;
+    width: 100%;
+    margin-bottom: 12px;
+  }
+
+  .game-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .top-info h1,
+  .top-info p,
+  #pregunta,
+  #resultado,
+  button,
+  #timer {
+    text-align: center;
+  }
+
+  .container {
+    padding: 16px;
+    border-radius: 16px;
+  }
+
+  button {
+    font-size: 0.96rem;
+  }
+}
