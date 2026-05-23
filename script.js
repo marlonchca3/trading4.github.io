@@ -25,15 +25,33 @@ const patrones = [
   },
   {
     img: "fotos/5.jpg",
-    pregunta: "¿Qué patrón es el 3 ?",
-    correcto: "Fondo redondeado",
-    opciones: ["Cielo negro cubierto", "Doble Techo", "Fondo redondeado"]
+    pregunta: "¿Qué patrón es el 1?",
+    correcto: "Tres metodos crecientes",
+    opciones: ["Tres metodos crecientes", "Doble Techo", "Fondo redondeado"]
   },
   {
     img: "fotos/6.jpg",
-    pregunta: "¿Qué patrón es el 3?",
-    correcto: "Empanada superior",
-    opciones: ["Empanada superior", "Cielo negro cubierto", "Bandera"]
+    pregunta: "¿Qué patrón es el 1?",
+    correcto: "Tres metodos crecientes",
+    opciones: ["Empanada superior", "Tres metodos crecientes", "Bandera"]
+  },
+  {
+    img: "fotos/7.jpg",
+    pregunta: "¿Qué patrón es el 1?",
+    correcto: "Tres metodos crecientes",
+    opciones: ["Empanada superior", "Tres metodos crecientes", "Bandera"]
+  },
+  {
+    img: "fotos/8.jpg",
+    pregunta: "¿¿Qué significa que las velas pequeñas bajen con volumen decreciente??",
+    correcto: "Significa que los vendedores están perdiendo fuerza",
+    opciones: ["Significa que los vendedores están con la misma fuerza", "Significa que los vendedores están ganado fuerza", "Significa que los vendedores están perdiendo fuerza"]
+  },
+  {
+    img: "fotos/9.jpg",
+    pregunta: "¿Qué patrón es el 1?",
+    correcto: "Tres metodos crecientes",
+    opciones: ["Empanada superior", "Tres metodos crecientes", "Bandera"]
   }
   
 ];
