@@ -49,10 +49,87 @@ const patrones = [
   },
   {
     img: "fotos/9.jpg",
-    pregunta: "¿Qué patrón es el 1?",
+    pregunta: "¿Qué patrónes es el 1?",
     correcto: "Tres metodos crecientes",
-    opciones: ["Empanada superior", "Tres metodos crecientes", "Bandera"]
+    opciones: ["Tres metodos crecientes", "Torre superior", "Pullback"]
+  },
+  {
+    img: "fotos/10.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Tres metodos crecientes",
+    opciones: ["Patrón salido", "Tres metodos crecientes", "Torre inferior"]
+  },
+
+  {
+    img: "fotos/11.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Tres metodos decrecientes",
+    opciones: ["Torre inferior", "Patrón cubierto", "Tres metodos decrecientes"]
+  },
+
+  {
+    img: "fotos/12.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Tres metodos decrecientes",
+    opciones: ["Tres metodos decrecientes", "Tres metodos decrecientes", "Patrón penetrante"]
+  },
+
+  {
+    img: "fotos/13.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Ventana creciente",
+    opciones: ["Patrónes de empuje", "Estrella de la mañana", "Ventana creciente"]
+  },
+
+  {
+    img: "fotos/14.jpg",
+    pregunta: "¿en este grafico que es bottom window",
+    correcto: "Soporte",
+    opciones: ["Soporte", "Patrón cubierto", "Estrella de la mañana"]
+  },
+
+  {
+    img: "fotos/15.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Ventana decreciente",
+    opciones: ["Patrónes de empuje", "Ventana decreciente", "Estrella de la mañana"]
+  }  ,
+
+  {
+    img: "fotos/16.jpg",
+    pregunta: "¿Qué patrónes es el 3",
+    correcto: "Ventanas decrecientes",
+    opciones: ["Patrónes de empuje", "Patrón cubierto", "Ventanas decrecientes"]
+  }  ,
+
+  {
+    img: "fotos/17.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Ventana decreciente",
+    opciones: ["Ventana decreciente", "Patrón cubierto", "Estrella de la noche"]
+  }  ,
+
+  {
+    img: "fotos/18.jpg",
+    pregunta: "¿Qué sonlos patrónes del 1-6",
+    correcto: "Ventanas ascendentes",
+    opciones: ["Patrónes de empuje", "Ventanas ascendentes", "Estrella de la mañana doji"]
+  }  ,
+
+  {
+    img: "fotos/19.jpg",
+    pregunta: "¿Como actuan cada una de las ventanas ascendesntes del 1-4",
+    correcto: "Como soporte",
+    opciones: ["Como patrónes de empuje", "Como patrón cubierto", "Como soporte"]
+  }  ,
+
+  {
+    img: "fotos/20.jpg",
+    pregunta: "¿Qué patrónes es el 1",
+    correcto: "Tasuki con gap ascendente",
+    opciones: ["Tasuki con gap ascendente", "Bebe abandonado en techo", "Estrella de la mañana"]
   }
+  
   
 ];
 
