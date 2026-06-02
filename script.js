@@ -13,13 +13,13 @@ const patrones = [
   },
   {
     img: "fotos/3.jpg",
-    pregunta: "¿Qué patrónes es el 1 ?",
+    pregunta: "¿Qué patrón es el 1 ?",
     correcto: "Juego de apertura de precio bajo",
     opciones: ["Cielo negro cubierto", "Juego de apertura de precio bajo", "Fondo del sarten"]
   },
   {
     img: "fotos/4.jpg",
-    pregunta: "¿Qué patrónes es el 5 ?",
+    pregunta: "¿Qué patrón es el 5 ?",
     correcto: "Lineas blancas una al lado del otro con espacio hacia arriba",
     opciones: ["Lineas blancas una al lado del otro con espacio hacia arriba", "Encima del soporte", "Encima de la resistencia"]
   },
@@ -49,85 +49,85 @@ const patrones = [
   },
   {
     img: "fotos/9.jpg",
-    pregunta: "¿Qué patrónes es el 1?",
+    pregunta: "¿Qué patrón es el 1?",
     correcto: "Tres metodos crecientes",
     opciones: ["Tres metodos crecientes", "Torre superior", "Pullback"]
   },
   {
     img: "fotos/10.jpg",
-    pregunta: "¿Qué patrónes es el 1",
+    pregunta: "¿Qué patrón es el 1",
     correcto: "Tres metodos crecientes",
     opciones: ["Patrón salido", "Tres metodos crecientes", "Torre inferior"]
   },
 
   {
     img: "fotos/11.jpg",
-    pregunta: "¿Qué patrónes es el 1",
+    pregunta: "¿Qué patrón es el 1",
     correcto: "Tres metodos decrecientes",
     opciones: ["Torre inferior", "Patrón cubierto", "Tres metodos decrecientes"]
   },
 
   {
     img: "fotos/12.jpg",
-    pregunta: "¿Qué patrónes es el 1",
+    pregunta: "¿Qué patrón es el 1",
     correcto: "Tres metodos decrecientes",
     opciones: ["Tres metodos decrecientes", "Tres metodos decrecientes", "Patrón penetrante"]
   },
 
   {
     img: "fotos/13.jpg",
-    pregunta: "¿Qué patrónes es el 1",
-    correcto: "Ventana creciente",
-    opciones: ["Patrónes de empuje", "Estrella de la mañana", "Ventana creciente"]
+    pregunta: "¿Qué patrón es el 1",
+    correcto: "Lineas separadas alcistas",
+    opciones: ["Patrónes de empuje", "Lineas separadas alcistas", "Ventana creciente"]
   },
 
   {
     img: "fotos/14.jpg",
-    pregunta: "¿en este grafico que es bottom window",
-    correcto: "Soporte",
-    opciones: ["Soporte", "Patrón cubierto", "Estrella de la mañana"]
+    pregunta: "¿porque no es bueno comprar en el patrón 1?",
+    correcto: "Por la resistencia que hay debido al 22,23 de agosto",
+    opciones: ["Por que se formo un hombro cabeza hombro al revez", "Por que es lo que siento", "Por la resistencia que hay debido al 22,23 de agosto"]
   },
 
   {
     img: "fotos/15.jpg",
-    pregunta: "¿Qué patrónes es el 1",
-    correcto: "Ventana decreciente",
-    opciones: ["Patrónes de empuje", "Ventana decreciente", "Estrella de la mañana"]
+    pregunta: "¿Qué patrón es el 1",
+    correcto: "Lineas separadas alcistas",
+    opciones: ["Lineas separadas alcistas", "Patrón cubierto", "Ventana creciente"]
   }  ,
 
   {
     img: "fotos/16.jpg",
-    pregunta: "¿Qué patrónes es el 3",
+    pregunta: "¿Qué patrón es el  1",
     correcto: "Ventanas decrecientes",
-    opciones: ["Patrónes de empuje", "Patrón cubierto", "Ventanas decrecientes"]
+    opciones: ["Patrónes de empuje", "Doji", "Ventanas decrecientes"]
   }  ,
 
   {
     img: "fotos/17.jpg",
-    pregunta: "¿Qué patrónes es el 1",
-    correcto: "Ventana decreciente",
-    opciones: ["Ventana decreciente", "Patrón cubierto", "Estrella de la noche"]
+    pregunta: "¿Qué patrón es el 1",
+    correcto: "Doji",
+    opciones: ["Ventana decreciente", "Patrón cubierto", "Doji"]
   }  ,
 
   {
     img: "fotos/18.jpg",
-    pregunta: "¿Qué sonlos patrónes del 1-6",
-    correcto: "Ventanas ascendentes",
-    opciones: ["Patrónes de empuje", "Ventanas ascendentes", "Estrella de la mañana doji"]
+    pregunta: "¿Qué patrón es el 8",
+    correcto: "Doji",
+    opciones: ["Doji", "Ventanas ascendentes", "Estrella de la mañana doji"]
   }  ,
 
   {
     img: "fotos/19.jpg",
-    pregunta: "¿Como actuan cada una de las ventanas ascendesntes del 1-4",
-    correcto: "Como soporte",
-    opciones: ["Como patrónes de empuje", "Como patrón cubierto", "Como soporte"]
+    pregunta: "¿Que patron es el 1",
+    correcto: "Doji piernas largas",
+    opciones: ["Como patrónes de empuje", "Doji piernas largas", "Como soporte"]
   }  ,
 
   {
     img: "fotos/20.jpg",
-    pregunta: "¿Qué patrónes es el 1",
-    correcto: "Tasuki con gap ascendente",
-    opciones: ["Tasuki con gap ascendente", "Bebe abandonado en techo", "Estrella de la mañana"]
+    pregunta: "¿Qué patrón es el 1",
+    correcto: "Doji lápida",
+    opciones: ["Tasuki con gap ascendente", "Bebe abandonado en techo", "Doji lápida"]
   }
   
   
